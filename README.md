@@ -12,10 +12,12 @@ Users can:
 ## ▶️ How to Run This Project
 
 1. Clone the repo:
+
    ```bash
-   git clone https://github.com/sosena2/A2SV-web-track-projects.
+   git clone https://github.com/sosena2/A2SV-web-track-projects
 
    ```
+
 2. Navigate to the project folder:
    cd task-1
 
@@ -28,4 +30,17 @@ Users can:
 🏠 Main Page
 
 This is the main interface of the app where you can add tasks.
-![Main Page]("screenshots/main-page.png")
+![Main page](task-1/screenshots/main-page.png)
+
+➕ Add Task
+
+![Main page](task-1/screenshots/add.png)
+Shows a new task being added to the list.
+
+✏️ Edit Task
+![Main page](task-1/screenshots/edit.png)
+Shows how you can edit a specific task by clicking the "Edit" button, editing in-place, and clicking "Save".
+
+❌ Delete Task
+![Main page](task-1/screenshots/delete.png)
+A task can be removed by checking its checkbox. This deletes it from the page and localStorage.
