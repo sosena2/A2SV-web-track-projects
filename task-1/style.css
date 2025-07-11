@@ -1,0 +1,82 @@
+body {
+  background-color: #222831;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.main-content {
+  background-color: #393E46;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+}
+
+
+h2 {
+  font-size: 32px;
+  color: #EEEEEE;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+button {
+  background-color: #001F3F;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tasks {
+  background-color: #222831;
+  color: #EEEEEE;
+  padding: 12px 15px;
+  margin: 10px auto;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.tasks span {
+  flex: 1;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.editButton {
+  background-color: #555879;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.tasks input[type="checkbox"] {
+  transform: scale(1.2);
+}
