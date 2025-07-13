@@ -46,18 +46,18 @@ OR
 Use the Live Server extension in VS Code
 
 📸 Screenshots
-🏠 Main Page
+🏠 Main Page :
 This is the main interface of the app where you can view, add, and manage tasks.
 ![](screenshot/main.png)
 
-➕ Add Task
+➕ Add Task :
 A user can enter a task and click "Add" to include it in the list.
-![Main page](screenshot/add.png)
+![Main page](screenshot/Add.png)
 
-✏️ Edit Task
+✏️ Edit Task :
 Click the "Edit" button next to a task to modify it, then "Save" to update.
 ![Main page](screenshot/edit.png)
 
-❌ Delete Task
+❌ Delete Task :
 Check the checkbox to delete a task. It will be removed from the page and localStorage.
 ![Main page](screenshot/delete.png)
