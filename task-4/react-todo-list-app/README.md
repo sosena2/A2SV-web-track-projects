@@ -1,69 +1,70 @@
-# React + TypeScript + Vite
+📝 React + TypeScript Todo List App
+This is a simple, interactive Todo List built using React, TypeScript, and CSS. It demonstrates the use of components, React Hooks, and localStorage for persistent state.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+✅ Features
+➕ Add Tasks — Quickly add new items to your list
 
-Currently, two official plugins are available:
+✏️ Edit Tasks — Modify existing tasks directly
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Mark as Done — Check off completed tasks
 
-## Expanding the ESLint configuration
+❌ Delete Tasks — Remove items from the list
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+💾 Persistent State — Tasks are saved in localStorage and remain after a page refresh
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+⚙️ Technologies Used
+🧠 React (with Hooks)
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+🛠️ TypeScript
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🎨 CSS (vanilla)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+🌐 Browser localStorage API
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+▶️ Getting Started
+🧩 Prerequisites
+Node.js and npm
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Git
+
+🚀 Run the Project Locally
+Clone the repo
+
+git clone https://github.com/your-username/your-repo-name
+
+Navigate into the folder
+
+cd your-repo-name
+
+Install dependencies
+
+npm install
+Start the development server
+
+This will open the app in your default browser at http://localhost:3000
+
+📸 Screenshots
+🏠 Main Page
+
+![](public/screenshots/main.png)
+Manage your tasks in one place.
+
+➕ Add a Task
+
+![](public/screenshots/Add.png)
+Type and hit Add to include it.
+
+✅ Mark as completed
+
+![](public/screenshots/completed.png)
+check the checkbox to mark task as completed
+
+✏️ Edit a Task
+
+![](public/screenshots/edit.png)
+Click Edit, make changes, then Save.
+
+❌ Delete a Task
+
+![](public/screenshots/delete.png)
+Remove tasks permanently.
