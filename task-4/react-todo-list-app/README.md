@@ -30,11 +30,11 @@ Git
 🚀 Run the Project Locally
 Clone the repo
 
-git clone https://github.com/your-username/your-repo-name
+git clone https://github.com/sosena2/A2SV-web-track-projects/tree/main/task-4
 
 Navigate into the folder
 
-cd your-repo-name
+cd react-todo-list-app
 
 Install dependencies
 
