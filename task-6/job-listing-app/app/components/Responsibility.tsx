@@ -3,9 +3,9 @@ import { JobPosting } from '@/types/jobs'
 
 const Responsibility = ({responsibilities}: Pick<JobPosting, "responsibilities">) => {
   return (
-     <div className='w-[815px] mb-[16px]'>
+     <div className='mb-[16px]'>
         <p className='font-[900] text-[24px] leading-[1.2] mb-4'>Responsibilities</p>
-        <div className='w-[815px] h-[162px]'>
+        <div>
            <ul className='space-y-3'>
           {responsibilities.map((item, index) => (
             <li key={index} className="flex items-start gap-2">
