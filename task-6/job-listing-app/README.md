@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Next.js + TypeScript Job Listing Dashboard
 
-## Getting Started
+This is a Job Listing Dashboard built using **Next.js**, **TypeScript**, and **Tailwind CSS**. It displays job cards dynamically using dummy data and includes company avatars, job descriptions, and a clean layout..
 
-First, run the development server:
+✅ Features
+📄 Job Cards — Displays job title, company, location, job type, avatar, and posted time
+🖼️ Avatar Image — Each job includes a company logo/avatar
+📦 Dummy Data — Populates all job cards from a local data file
+🧾 Job Descriptions — Separate section for detailed job info
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+⚙️ Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+⚛️ Next.js (App Router)
+🛠️ TypeScript
+💨 Tailwind CSS
+🖼️ Static Image Assets (Avatar)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+▶️ Getting Started
+🧩 Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js and npm
+- Git
 
-## Learn More
+🚀 Run the Project Locally
 
-To learn more about Next.js, take a look at the following resources:
+- Clone the repo
+  git clone https://github.com/sosena2/A2SV-web-track-projects/tree/main/task-6
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Navigate into the folder
+  cd job-listing-app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Install dependencies
+  npm install
 
-## Deploy on Vercel
+- Start the development server
+  npm run dev
+  The app will open at: http://localhost:3000
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📸 Screenshots
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🏠 Home page
+![](public/screenshot/job-list.png)
+![](public/screenshot/job-list2.png)
+
+🧾 Dashboard
+![](public/screenshot/description.png)
+![](public/screenshot/description2.png)
+
+📱 Mobile Responsive
