@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 Next.js + TypeScript Job Listing Dashboard — Task 7
 
-## Getting Started
+This is a Job Listing Dashboard built with **Next.js**, **TypeScript**, and **Tailwind CSS**. In this task, we extended the functionality by **integrating live job data** from a provided **API endpoint** instead of using dummy data.
 
-First, run the development server:
+---
+
+## ✅ Features
+
+- 📄 **Dynamic Job Cards** — Each card displays job title, company, location, job type, avatar/logo, and posted time.
+- 🌐 **Live API Integration** — Fetches data from a remote backend and displays in real time.
+- 🖼️ **Company Logos** — Displays logo per company from the API.
+- 🧾 **Detailed Descriptions** — Job detail page shows full info by job ID.
+- ⚠️ **Error Handling** — Graceful handling of failed requests or invalid data.
+
+---
+
+## ⚙️ Technologies Used
+
+- ⚛️ **Next.js (App Router)**
+- 🛠️ **TypeScript**
+- 💨 **Tailwind CSS**
+- 📡 **Redux Toolkit Query (RTK Query)**
+- 🌐 **REST API Integration**
+
+---
+
+## ▶️ Getting Started
+
+### 🧩 Prerequisites
+
+- Node.js and npm
+- Git
+
+### 🚀 Run the Project Locally
 
 ```bash
+# Clone the repo
+git clone https://github.com/sosena2/A2SV-web-track-projects.git
+
+# Navigate into the folder
+cd task-7/job-listing-app
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Visit the app at: http://localhost:3000
+
+📸 Screenshots
+🏠 Home Page (Job Listings)
+    ![](public/screenshots/main.png)
+
+🧾 Job Description Page
+    ![](public/screenshots/description.png)
+    ![](public/screenshots/description2.png)
+
+   Job loading state
+    ![](public/screenshots/loading-jobs.png)
+
+   Job description loading state
+   ![](public/screenshots/loading-job-details.png)
+
+   failed Api request Error handling
+   ![](public/screenshots/failed.png)
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
