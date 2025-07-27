@@ -33,34 +33,40 @@ This is a Job Listing Dashboard built with **Next.js**, **TypeScript**, and **Ta
 
 ### 🚀 Run the Project Locally
 
-```bash
 # Clone the repo
+
 git clone https://github.com/sosena2/A2SV-web-track-projects.git
 
 # Navigate into the folder
+
 cd task-7/job-listing-app
 
 # Install dependencies
+
 npm install
 
 # Start the development server
+
 npm run dev
 Visit the app at: http://localhost:3000
 
 📸 Screenshots
 🏠 Home Page (Job Listings)
-    ![](public/screenshots/main.png)
+![](public/screenshots/main.png)
 
 🧾 Job Description Page
-    ![](public/screenshots/description.png)
-    ![](public/screenshots/description2.png)
+![](public/screenshots/description.png)
+![](public/screenshots/description2.png)
 
-   Job loading state
-    ![](public/screenshots/loading-jobs.png)
+Job loading state
+![](public/screenshots/loading-jobs.png)
 
-   Job description loading state
-   ![](public/screenshots/loading-job-details.png)
+Job description loading state
+![](public/screenshots/loading-job-details.png)
 
-   failed Api request Error handling
-   ![](public/screenshots/failed.png)
+failed Api request Error handling
+![](public/screenshots/failed.png)
+
+```
+
 ```
