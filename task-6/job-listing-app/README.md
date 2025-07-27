@@ -4,8 +4,11 @@ This is a Job Listing Dashboard built using **Next.js**, **TypeScript**, and **T
 
 ✅ Features
 📄 Job Cards — Displays job title, company, location, job type, avatar, and posted time
+
 🖼️ Avatar Image — Each job includes a company logo/avatar
+
 📦 Dummy Data — Populates all job cards from a local data file
+
 🧾 Job Descriptions — Separate section for detailed job info
 
 ⚙️ Technologies Used
@@ -45,5 +48,3 @@ This is a Job Listing Dashboard built using **Next.js**, **TypeScript**, and **T
 🧾 Dashboard
 ![](public/screenshot/description.png)
 ![](public/screenshot/description2.png)
-
-📱 Mobile Responsive
