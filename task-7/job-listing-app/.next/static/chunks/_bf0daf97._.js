@@ -19,9 +19,11 @@ const jobsApi = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules
         baseUrl: "https://akil-backend.onrender.com/"
     }),
     endpoints: (builder)=>({
+            // to get all the job listing
             getAllJobs: builder.query({
                 query: ()=>"/opportunities/search"
             }),
+            // to get a specific job listing
             getJobsById: builder.query({
                 query: (id)=>"/opportunities/".concat(id)
             })
