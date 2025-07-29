@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🔐 Next.js + TypeScript Authentication — Task 8
+This is an authentication system built with Next.js, TypeScript, and NextAuth.js, using both custom credentials and Google OAuth for a Job-listing application. In this task, we implemented user sign-up and sign-in functionality and connected it to the provided backend API endpoints for real user authentication.
 
-## Getting Started
+✅ Features
+🔑 User Sign In & Sign Up — Custom pages for user registration and login.
 
-First, run the development server:
+🛂 NextAuth Integration — Secure authentication with Credentials & Google providers.
 
-```bash
+🧾 JWT & Session Handling — Manages secure session and token-based auth flow.
+
+🌐 API Integration — Fully integrated with the backend for real-time auth.
+
+⚠️ Error Handling — Graceful handling of invalid credentials or failed API requests.
+
+⚙️ Technologies Used
+
+    ⚛️ Next.js (App Router)
+
+    🛠️ TypeScript
+
+    💨 Tailwind CSS
+
+    🔐 NextAuth.js
+
+    🌐 Custom REST API for Auth
+
+▶️ Getting Started
+
+🧩 Prerequisites
+Node.js and npm
+
+    Git
+
+🚀 Run the Project Locally
+
+# Clone the repo
+
+git clone https://github.com/sosena2/A2SV-web-track-projects.git
+
+# Navigate into the task 8 folder
+
+cd task-8/authentication-app
+
+# Install dependencies
+
+npm install
+
+# Start the development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit the app at: http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📸 Screenshots
+📝 Sign Up Page - custom signin
+![](public/screenshots/signup.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📝 Sign Up Page- google signup
+![](public/screenshots/google.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📝 Signin page
+![](public/screenshots/login.png)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⚙️ Email verification
+![](public/screenshots/verify.png)
+![](public/screenshots/verify2.png)
