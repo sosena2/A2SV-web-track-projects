@@ -1,4 +1,5 @@
 🔐 Next.js + TypeScript Authentication — Task 8
+
 This is an authentication system built with Next.js, TypeScript, and NextAuth.js, using both custom credentials and Google OAuth for a Job-listing application. In this task, we implemented user sign-up and sign-in functionality and connected it to the provided backend API endpoints for real user authentication.
 
 ✅ Features
@@ -39,7 +40,7 @@ git clone https://github.com/sosena2/A2SV-web-track-projects.git
 
 # Navigate into the task 8 folder
 
-cd task-8/authentication-app
+cd task-8/job-listing-app
 
 # Install dependencies
 
