@@ -66,7 +66,3 @@ Job description loading state
 
 failed Api request Error handling
 ![](public/screenshots/failed.png)
-
-```
-
-```

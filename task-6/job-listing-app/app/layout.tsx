@@ -5,7 +5,7 @@ import "./globals.css";
 const epilogue = Epilogue({
   variable: '--font-epilogue',
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700'], // Add more if needed
+  weight: ['400', '500', '600', '700'], 
 });
 
 const geistSans = Geist({

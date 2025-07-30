@@ -1,0 +1,3 @@
+# Force .ts and .tsx to be counted as TypeScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
