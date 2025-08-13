@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📌 Next.js + TypeScript Job Listing Dashboard — Final Task: Bookmark Functionality
+This is the Final Task for the Job Listing Dashboard built with Next.js, TypeScript, and Tailwind CSS.
 
-## Getting Started
+In this update, we added bookmark functionality so users can save their favorite job positions and access them later.
 
-First, run the development server:
+✅ Features
+🔖 Bookmark Toggle Button — Each job card now includes a button to bookmark or unbookmark a job.
 
-```bash
+🔒 Authenticated Access — Bookmark functionality is available only for logged-in users.
+
+📡 Live API Integration — Bookmark actions are synced with the backend via REST API.
+
+📜 Bookmarked List View — Users can view all saved jobs in one place.
+
+🧾 Detailed Job Info — Job detail pages remain accessible with full descriptions.
+
+⚙️ Technologies Used
+⚛️ Next.js (App Router)
+
+🛠️ TypeScript
+
+💨 Tailwind CSS
+
+📡 Redux Toolkit Query (RTK Query)
+
+🔐 JWT Authentication
+
+🧪 Jest for unit and component testing
+
+🌐 Cypress for end-to-end testing
+
+🔖 Bookmark API Integration
+
+▶️ Getting Started
+🧩 Prerequisites
+Node.js and npm
+
+Git
+
+Backend API access (Base URL: https://akil-backend.onrender.com/)
+
+🚀 Run the Project Locally
+
+# Clone the repo
+
+git clone https://github.com/sosena2/A2SV-web-track-projects.git
+
+# Navigate into the folder
+
+cd final-task/job-listing-app
+
+# Install dependencies
+
+npm install
+
+# Start the development server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Visit the app at: http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 API Endpoints Used
+Base URL: https://akil-backend.onrender.com/
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🧪 Testing
+Unit & Component Testing (Jest)
+✅ Tested bookmark toggle logic.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✅ Ensured button state updates correctly.
 
-## Learn More
+✅ Verified job card renders correctly.
 
-To learn more about Next.js, take a look at the following resources:
+✅ Checked "Job Not Found" card rendering.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+End-to-End Testing (Cypress)
+✅ Tested bookmarking a job from the listing page.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+✅ Verified that bookmarked jobs appear in the bookmarks list.
 
-## Deploy on Vercel
+✅ Tested unbookmarking functionality.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📸 Screenshots
+🏠 Home Page (Job Listings with Bookmark Button)
+![](public/bookmarkButton.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔖 Bookmarked Jobs Page
+![](public/Saved-jobs.png)
+
+Jest test results
+![](public/jest1.png)
+![](public/jest2.png)
+
+cypress test results
+![](public/cypress.png)
