@@ -1,6 +1,6 @@
 📌 Next.js + TypeScript Job Listing Dashboard — Final Task: Bookmark Functionality
-This is the Final Task for the Job Listing Dashboard built with Next.js, TypeScript, and Tailwind CSS.
 
+This is the Final Task for the Job Listing Dashboard built with Next.js, TypeScript, and Tailwind CSS.
 In this update, we added bookmark functionality so users can save their favorite job positions and access them later.
 
 ✅ Features
